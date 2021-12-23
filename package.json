@@ -1,0 +1,25 @@
+{
+  "name": "portafolio---manuel-ortiz",
+  "version": "1.0.0",
+  "description": "portafolio personal",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss assets/ assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeinSec/ManuelOrtiz-Portafolio.git"
+  },
+  "author": "Manuel Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeinSec/ManuelOrtiz-Portafolio/issues"
+  },
+  "homepage": "https://github.com/NeinSec/ManuelOrtiz-Portafolio#readme",
+  "dependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
