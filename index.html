@@ -1,350 +1,688 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manuel Ortiz</title>
-    <meta name="author" content="Manuel Ortiz">
-    <meta name="keywords" content="HTML, CSS, JavaScript, UX, UI, Developer, Premier, After Effets, Diseño Grafico">
-    <meta name=»description» content=»Diseñador Grafico de profesión especializado en el UX/UI, me encanta los desafíos y encontrar las mejores soluciones para un problema, por esto me encuentro en un constante aprendizaje y perfeccionamiento..»>
+    <meta name="author" content="Manuel Ortiz" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, UX, UI, Developer, Premier, After Effets, Diseño Grafico"
+    />
+    <meta name=»description» content=»Diseñador Grafico de profesión
+    especializado en el UX/UI, me encanta los desafíos y encontrar las mejores
+    soluciones para un problema, por esto me encuentro en un constante
+    aprendizaje y perfeccionamiento..»>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <header class="">
+      <nav
+        class="navbar container-fluid position-fixed navbar-expand-lg navbar-light bg-warning py-3"
+      >
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-3" href="#">Manuel Ortiz</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#formacion">Formación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portafolio">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <main>
-
-        <!-- nav --> 
-        <header class="">
-          <nav class="navbar container-fluid position-fixed navbar-expand-lg navbar-light bg-warning py-3 ">
-            <div class="container">
-              <a class="navbar-brand fw-bold fs-3" href="#">Manuel Ortiz</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+      <!-- Showcase -->
+      <section class="bg-secondary text-light py-5 text-center text-sm-start">
+        <div class="container">
+          <div class="d-sm-flex align-items-center pt-5">
+            <div>
+              <h1 data-aos="fade-right">
+                Diseñador <span class="text-warning">UX/UI</span>
+              </h1>
+              <p data-aos="fade-right" class="lead my-4">
+                Diseñador Grafico de profesión especializado en el UX/UI, me
+                encanta los desafíos y encontrar las mejores soluciones para un
+                problema, por esto me encuentro en un constante aprendizaje y
+                perfeccionamiento.
+              </p>
+              <button data-aos="fade-right" class="btn btn-primary btn-lg">
+                DESCARGA MI CV
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#formacion">Formación</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#habilidades">Habilidades</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#portafolio">Portafolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                  </li>
-                </ul>
-              </div>
             </div>
-          </nav>
-        </header>
+            <img
+              data-aos="fade-up"
+              class="img-fluid w-50 d-none d-sm-block"
+              src="./assets/img/showcase.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
 
-          <!-- Showcase --> 
-          <section class="bg-secondary text-light py-5 text-center text-sm-start">
-            <div class="container">
-                <div class="d-sm-flex align-items-center pt-5">
-                    <div>
-                        <h1>Diseñador <span class="text-warning">UX/UI</span></h1>
-                        <p class="lead my-4">
-                          Diseñador Grafico de profesión especializado en el UX/UI, me encanta los desafíos y encontrar las mejores soluciones para un problema, por esto me encuentro en un constante aprendizaje y perfeccionamiento.
-                        </p>
-                        <button class="btn btn-primary btn-lg">DESCARGA MI CV</button>
-                    </div>
-                        <img class="img-fluid w-50 d-none d-sm-block" src="./assets/img/showcase.svg" alt="">
-                </div>
-            </div>
-          </section>
+      <!-- Formacion Academica -->
 
-          <!-- Formacion Academica --> 
+      <section id="formacion" class="pt-5 pb-5 px-5 text-center">
+        <h4 data-aos="fade-down" class="font-weight-bold mb-3 py-5">
+          FORMACIÓN ACADÉMICA
+        </h4>
+        <div class="row">
+          <div data-aos="flip-right" class="col-md-4 py-4 bg-warning">
+            <h3 class="mt-3 font-weight-bold">DISEÑO GRÁFICO PROFESIONAL</h3>
+            <p>Instituto Profesional DuocUC<br />2008-2012</p>
+          </div>
+          <div data-aos="flip-up" class="col-md-4 py-4 bg-secondary text-light">
+            <h3 class="mt-3 font-weight-bold">DISEÑO UX/UI</h3>
+            <p>Academia Desafío LATAM<br />2021</p>
+          </div>
+          <div data-aos="flip-left" class="col-md-4 py-4 bg-warning">
+            <h3 class="mt-3 font-weight-bold">DESARROLLO FRONTEND REACTS</h3>
+            <p>Academia Coderhouse<br />2021-Actualidad</p>
+          </div>
+        </div>
+        <div>
+          <h4 data-aos="fade-down" class="font-weight-bold mb-3 pt-5">
+            CURSOS Y TALLERES
+          </h4>
+          <p data-aos="fade-up" class="mt-0 mb-5 text-center font-weight-light">
+            "No quiero parar de aprender" <br />Me encanta estar en un
+            aprendizaje constante, deje pasar mucho tiempo
+          </p>
+        </div>
 
-          <section id="formacion" class="pt-5 pb-5 px-5 text-center">
+        <div class="row">
+          <div data-aos="zoom-out" class="col-md-4">
+            <h5 class="mt-3">
+              <span class="font-weight-light">TALLER:</span> Diseño y Gestión de
+              Redes Sociales Avanzado
+            </h5>
+            <p>Universidad de Chile - 2016</p>
+          </div>
+          <div data-aos="zoom-out" class="col-md-4">
+            <h5 class="mt-3">
+              <span class="font-weight-light">CURSO:</span> Programación Básica
+            </h5>
+            <p>Platzi - 2018</p>
+          </div>
+          <div data-aos="zoom-out" class="col-md-4">
+            <h5 class="mt-3">
+              <span class="font-weight-light">CURSO:</span> Edición de video con
+              Premiere Pro 2016
+            </h5>
+            <p>Platzi - 2017</p>
+          </div>
+        </div>
+      </section>
 
-            <h4 class="font-weight-bold mb-3 py-5">FORMACIÓN ACADÉMICA</h4>
-             <div class="row">        
-                <div class="col-md-4 py-4 bg-warning">
-                  <h3 class="mt-3 font-weight-bold">DISEÑO GRÁFICO PROFESIONAL</h3>
-                  <p>Instituto Profesional DuocUC<br>2008-2012</p>
-                </div>
-                <div class="col-md-4 py-4 bg-secondary text-light">
-                  <h3 class="mt-3 font-weight-bold">DISEÑO UX/UI</h3>
-                  <p>Academia Desafío LATAM<br>2021</p>
-                </div>
-                <div class="col-md-4 py-4 bg-warning">
-                  <h3 class="mt-3 font-weight-bold">DESARROLLO FRONTEND REACTS</h3>
-                  <p>Academia Coderhouse<br>2021-Actualidad</p>
-                </div>                 
-                </div>        
-        
-                <h4 class="font-weight-bold mb-3 pt-5">CURSOS Y TALLERES</h4>
-                <p class="mt-0 mb-5 text-center font-weight-light">"No quiero parar de aprender" <br>Me encanta estar en un aprendizaje constante, deje pasar mucho tiempo</p>
-        
-                <div class="row">        
-                  <div class="col-md-4">
-                    <h5 class="mt-3"><span class="font-weight-light">TALLER:</span> Diseño y Gestión de Redes Sociales Avanzado</h5>
-                    <p>Universidad de Chile - 2016</p>
-                  </div>
-                  <div class="col-md-4">
-                     <h5 class="mt-3"><span class="font-weight-light">CURSO:</span> Programación Básica</h5>
-                    <p>Platzi - 2018</p>
-                  </div>
-                  <div class="col-md-4">
-                    <h5 class="mt-3"><span class="font-weight-light">CURSO:</span> Edición de video con Premiere Pro 2016</h5>
-                    <p>Platzi - 2017</p>                    
-                  </div>
-                </div>        
-          </section>
+      <!-- Manejo de Softwares -->
 
-          <!-- Manejo de Softwares --> 
+      <section
+        id="habilidades"
+        class="container-fluid pt-5 pb-5 px-5 bg-secondary text-light text-center"
+      >
+        <h4 data-aos="zoom-in" class="font-weight-bold mb-3 pt-5">
+          MANEJO DE SOFTWARES Y APPS
+        </h4>
+        <p data-aos="zoom-out" class="mt-0 mb-3 text-center font-weight-light">
+          ¿Necesitas que use algo que no sale acá? <br />No te preocupes, basta
+          con que me lo pidas y en unos días te sorprenderé.
+        </p>
 
-          <section id="habilidades" class="container-fluid pt-5 pb-5 px-5 bg-secondary text-light text-center">
-            <h4 class="font-weight-bold mb-3 pt-5">MANEJO DE SOFTWARES Y APPS</h4>
-            <p class="mt-0 mb-3 text-center font-weight-light">¿Necesitas que use algo que no sale acá? <br>No te preocupes, basta con que me lo pidas y en unos días te sorprenderé.</p>
-        
-            <div class="row">
-        
-              <div class="col-md-3">
-        
-                <p class="mt-3 mb-0">HTML5</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-        
-                <p class="mt-3 mb-0">CSS</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">Bootstrap</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">JavaScript</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-        
-                <p class="mt-3 mb-0">Sass</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>   
-        
-              </div>
-        
-              <div class="col-md-3">
-                <p class="mt-3 mb-0">Github</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">Figma</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">Adobe XD</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">OBS</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">Wirecast</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-        
-              </div>
-        
-              <div class="col-md-3">
-                <p class="mt-3 mb-0">Marvel</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">Illustrator</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">Photoshop</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">Lightroom</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">InDesign</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-        
-              </div>
-        
-              <div class="col-md-3">
-                <p class="mt-3 mb-0">After Effects</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">Premiere Pro</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">Edius</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">Audition</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="mt-3 mb-0">Wordpress</p>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-        
-              </div>
-            </div>   
-        
-        
-            <h4 class="font-weight-bold pt-5">PASATIEMPOS</h4>
-            <p class="mt-3 mb-5 text-center font-weight-light">Me encanta la tecnología, llegó para solucionarnos la vida y quiero saber usarla</p>
-        
-            <div class="row mx-5">
-        
-              <div class="col-md-2">
-                <i class="py-3 h1 bi-mic"></i>
-                <p class="mt-3 mb-0">Podcast</p>
-              </div>
-              <div class="col-md-2">
-                <i class="py-3 h1 bi-film"></i>
-                <p class="mt-3 mb-0">Cine</p>
-              </div>
-              <div class="col-md-2">
-                <i class="py-3 h1 bi-headphones"></i>
-                <p class="mt-3 mb-0">Música</p>
-              </div>
-              <div class="col-md-2">
-                <i class="py-3 h1 bi-controller"></i>
-                <p class="mt-3 mb-0">Videojuegos</p>
-              </div>
-              <div class="col-md-2">
-                <i class="py-3 h1 bi-camera"></i>
-                <p class="mt-3 mb-0">Fotografía</p>
-              </div>
-              <div class="col-md-2">
-                <i class="py-3 h1 bi-egg-fried"></i>
-                <p class="mt-3 mb-0">Comida</p>
-              </div>
-            </div>
-        
-          </section>
-
-          <!-- Portafolio --> 
-
-          <section id="portafolio" class="container-fluid pt-5 pb-5 px-5 text-center">
-
-            <h4 class="font-weight-bold mb-3 pt-5">PORTAFOLIO</h4>
-        
-        
-            <p class="mt-0 mb-4 text-center font-weight-light">Podrás ver que soy bastante versátil y me encanta hacer cosas diversas. <br>Pero me encanta enfocarme en una labor y especializarme.
-            </p>
-        
-            <div class="row">
-        
-              <div class="col-md-3 pt-4 text-decoration-none">
-                <a href="https://neinsec.github.io/ViajesChile/" class="column col-xs-6" target="_blank">
-                  <p class="mt-2 mb-1 text-center font-weight-bold">Maquetación Web<br><span class="tipodiseno">HTML / CSS / Web</span></p>
-                  <img src="assets/img/Image-1.png">
-                </a>
-              </div>
-              <div class="col-md-3  pt-4 text-decoration-none">
-                <a href="https://www.figma.com/proto/QBPj1fsziwoVJ8N7YQaP5b/Prueba---Prototipo-navegable?page-id=0%3A1&node-id=2%3A12&starting-point-node-id=2%3A12" class="column col-xs-6" target="_blank">
-                  <p class="mt-2 mb-1 text-center font-weight-bold">Rediseño DesafioLatam<br><span class="tipodiseno">Figma / UI / Prototipado</span></p><img src="assets/img/Image-2.png">
-                </a>
-              </div>
-              <div class="col-md-3  pt-4 text-decoration-none">
-                <a href="https://www.pintana.cl/wp-content/uploads/2021/07/revista/revista-octubre-2019.pdf"class="column col-xs-6" target="_blank">
-                  <p class="mt-2 mb-1 text-center font-weight-bold ">Revista La Pintana AHORA<br><span class="tipodiseno">Diagramación / Diseño / InDesign </span></p><img src="assets/img/Image-3.png">
-                </a>
-              </div>
-              <div class="col-md-3  pt-4 text-decoration-none">
-                <a href="https://www.figma.com/proto/TaOQ2qoQPpd1G5MDKkknUn/Blog-de-Tecnolog%C3%ADa-(Color)?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1" class="column col-xs-6" target="_blank">
-                  <p class="mt-2 mb-1 text-center font-weight-bold ">Diseño Blog de Tecnología<br><span class="tipodiseno">UX / UI / Diseño Web / Figma</span></p><img src="assets/img/Image-4.png">
-                </a>
-              </div>
-        
-            </div>
-        
-            <div class="row">
-        
-              <div class="col-md-3  pt-4 text-decoration-none">
-                <a href="https://www.figma.com/proto/Z5DYNBOF0NHuslrzM0HXvd/Prototipo-punto-vet?page-id=0%3A1&node-id=219%3A1606&starting-point-node-id=524%3A2365" class="column col-xs-6" target="_blank">
-                  <p class="mt-2 mb-1 text-center font-weight-bold ">Aplicacón cuidado de mascotas<br><span class="tipodiseno">UX / UI / Diseño de App / Prototipado</span></p><img src="assets/img/Image-5.png">
-                </a>
-              </div>
-              <div class="col-md-3  pt-4 text-decoration-none">
-                <a href="https://fb.watch/atL9F-6xV1/" class="column col-xs-6" target="_blank">
-                  <p class="mt-2 mb-1 text-center font-weight-bold ">Cuenta Pública - La Pintana<br><span class="tipodiseno"> Premiere / After Effects / Edición </span></p><img src="assets/img/Image-6.png">
-                </a>
-              </div>
-              <div class="col-md-3  pt-4 text-decoration-none">
-                <a href="https://fb.watch/atLquu2c-d/" class="column col-xs-6" target="_blank">
-                  <p class="mt-2 mb-1 text-center font-weight-bold ">Tranmisión Facebook live<br><span class="tipodiseno">OBS / Steaming / After Effects / Dirección</span></p><img src="assets/img/Image-7.png">
-                </a>
-              </div>
-              <div class="col-md-3  pt-4 text-decoration-none">
-                <a href="https://www.figma.com/proto/34Bt2haICzFPwjM0Qevk1z/Global66?page-id=0%3A1&node-id=7%3A23&viewport=241%2C48%2C0.45&scaling=min-zoom&starting-point-node-id=7%3A23" class="column col-xs-6" target="_blank">
-                  <p class="mt-2 mb-1 text-center font-weight-bold ">Prototipado APP Global66<br><span class="tipodiseno">UX / UI / Figma / APP</span></p><img src="assets/img/Image.png">
-                </a>
-              </div>        
-            </div>           
-          </section>
-
-          <!-- Contacto --> 
-
-          <section id="contacto" class="bg-warning container-fluid pt-3 pb-5 px-5 text-sm-start ">
-
-            <div class="container">
-                  <h4 class="font-weight-bold my-3 py-5 text-center">CONTACTO</h4>        
-
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu Nombre">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="col-auto">
-                  <button type="submit" class="btn btn-primary mb-3">Enviar</button>
-                </div>              
+        <div class="row">
+          <div class="col-md-3">
+            <p class="mt-3 mb-0">HTML5</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
             </div>
 
-            
-          </section>
+            <p class="mt-3 mb-0">CSS</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">Bootstrap</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">JavaScript</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
 
-          <!-- Footer --> 
-          <footer class="text-center text-light p-3 bg-secondary">
-            <a href="https://www.behance.net/manuelortif759"><i class="text-light h1 bi-behance"></i></a>
-            <a href="https://www.linkedin.com/in/manuel-ortiz-86586554/"><i class="px-2 text-light h1 bi-linkedin"></i></a>
-            <a href="https://www.instagram.com/n31t0"><i class="px-2  text-light h1 bi-instagram"></i></a>
-            <a href="https://www.youtube.com/channel/UCeqcIjCTx-9YXnN9afpueTA"><i class="px-2  text-light h1 bi-youtube"></i></a>
-            <a href="https://github.com/NeinSec"><i class="px-2 text-light h1 bi-github"></i></a>
-            
-            <p class="py-3 creditos">Diseño original de Manuel Ortiz - 2021.<br> Todos los derechos reservados.</p>
-        
-          </footer>
+            <p class="mt-3 mb-0">Sass</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 50%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
 
+          <div class="col-md-3">
+            <p class="mt-3 mb-0">Github</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 70%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">Figma</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 90%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">Adobe XD</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 90%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">OBS</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 90%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">Wirecast</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 90%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <p class="mt-3 mb-0">Marvel</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 70%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">Illustrator</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">Photoshop</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">Lightroom</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">InDesign</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 90%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <p class="mt-3 mb-0">After Effects</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 90%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">Premiere Pro</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">Edius</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 70%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">Audition</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 50%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="mt-3 mb-0">Wordpress</p>
+            <div class="progress">
+              <div
+                data-aos="fade-right"
+                class="progress-bar"
+                role="progressbar"
+                style="width: 40%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <h4 data-aos="fade-up" class="font-weight-bold pt-5">PASATIEMPOS</h4>
+        <p data-aos="fade-up" class="mt-3 mb-5 text-center font-weight-light">
+          Me encanta la tecnología, llegó para solucionarnos la vida y quiero
+          saber usarla
+        </p>
+
+        <div class="row mx-5">
+          <div data-aos="flip-up" class="col-md-2 py-3">
+            <i class="py-3 h1 bi-mic"></i>
+            <p class="mt-3 mb-0">Podcast</p>
+          </div>
+          <div data-aos="flip-up" class="col-md-2 py-3">
+            <i class="py-3 h1 bi-film"></i>
+            <p class="mt-3 mb-0">Cine</p>
+          </div>
+          <div data-aos="flip-up" class="col-md-2 py-3">
+            <i class="py-3 h1 bi-headphones"></i>
+            <p class="mt-3 mb-0">Música</p>
+          </div>
+          <div data-aos="flip-up" class="col-md-2 py-3">
+            <i class="py-3 h1 bi-controller"></i>
+            <p class="mt-3 mb-0">Videojuegos</p>
+          </div>
+          <div data-aos="flip-up" class="col-md-2 py-3">
+            <i class="py-3 h1 bi-camera"></i>
+            <p class="mt-3 mb-0">Fotografía</p>
+          </div>
+          <div data-aos="flip-up" class="col-md-2 py-3">
+            <i class="py-3 h1 bi-egg-fried"></i>
+            <p class="mt-3 mb-0">Comida</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portafolio -->
+
+      <section
+        id="portafolio"
+        class="container-fluid pt-5 pb-5 px-5 text-center"
+      >
+        <h4 data-aos="fade-left" class="font-weight-bold mb-3 pt-5">
+          PORTAFOLIO
+        </h4>
+
+        <p data-aos="fade-left" class="mt-0 mb-4 text-center font-weight-light">
+          Podrás ver que soy bastante versátil y me encanta hacer cosas
+          diversas. <br />Pero me encanta enfocarme en una labor y
+          especializarme.
+        </p>
+
+        <div class="row">
+          <div data-aos="flip-left" class="col-md-3 pt-4 text-decoration-none">
+            <a
+              href="https://neinsec.github.io/ViajesChile/"
+              class="column col-xs-6"
+              target="_blank"
+            >
+              <p class="mt-2 mb-1 text-center font-weight-bold">
+                Maquetación Web<br /><span class="tipodiseno"
+                  >HTML / CSS / Web</span
+                >
+              </p>
+              <img src="assets/img/Image-1.png" />
+            </a>
+          </div>
+          <div data-aos="flip-left" class="col-md-3 pt-4 text-decoration-none">
+            <a
+              href="https://www.figma.com/proto/QBPj1fsziwoVJ8N7YQaP5b/Prueba---Prototipo-navegable?page-id=0%3A1&node-id=2%3A12&starting-point-node-id=2%3A12"
+              class="column col-xs-6"
+              target="_blank"
+            >
+              <p class="mt-2 mb-1 text-center font-weight-bold">
+                Rediseño DesafioLatam<br /><span class="tipodiseno"
+                  >Figma / UI / Prototipado</span
+                >
+              </p>
+              <img src="assets/img/Image-2.png" />
+            </a>
+          </div>
+          <div data-aos="flip-left" class="col-md-3 pt-4 text-decoration-none">
+            <a
+              href="https://www.pintana.cl/wp-content/uploads/2021/07/revista/revista-octubre-2019.pdf"
+              class="column col-xs-6"
+              target="_blank"
+            >
+              <p class="mt-2 mb-1 text-center font-weight-bold">
+                Revista La Pintana AHORA<br /><span class="tipodiseno"
+                  >Diagramación / Diseño / InDesign
+                </span>
+              </p>
+              <img src="assets/img/Image-3.png" />
+            </a>
+          </div>
+          <div data-aos="flip-left" class="col-md-3 pt-4 text-decoration-none">
+            <a
+              href="https://www.figma.com/proto/TaOQ2qoQPpd1G5MDKkknUn/Blog-de-Tecnolog%C3%ADa-(Color)?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1"
+              class="column col-xs-6"
+              target="_blank"
+            >
+              <p class="mt-2 mb-1 text-center font-weight-bold">
+                Diseño Blog de Tecnología<br /><span class="tipodiseno"
+                  >UX / UI / Diseño Web / Figma</span
+                >
+              </p>
+              <img src="assets/img/Image-4.png" />
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div data-aos="flip-left" class="col-md-3 pt-4 text-decoration-none">
+            <a
+              href="https://www.figma.com/proto/Z5DYNBOF0NHuslrzM0HXvd/Prototipo-punto-vet?page-id=0%3A1&node-id=219%3A1606&starting-point-node-id=524%3A2365"
+              class="column col-xs-6"
+              target="_blank"
+            >
+              <p class="mt-2 mb-1 text-center font-weight-bold">
+                Aplicacón cuidado de mascotas<br /><span class="tipodiseno"
+                  >UX / UI / Diseño de App / Prototipado</span
+                >
+              </p>
+              <img src="assets/img/Image-5.png" />
+            </a>
+          </div>
+          <div data-aos="flip-left" class="col-md-3 pt-4 text-decoration-none">
+            <a
+              href="https://fb.watch/atL9F-6xV1/"
+              class="column col-xs-6"
+              target="_blank"
+            >
+              <p class="mt-2 mb-1 text-center font-weight-bold">
+                Cuenta Pública - La Pintana<br /><span class="tipodiseno">
+                  Premiere / After Effects / Edición
+                </span>
+              </p>
+              <img src="assets/img/Image-6.png" />
+            </a>
+          </div>
+          <div data-aos="flip-left" class="col-md-3 pt-4 text-decoration-none">
+            <a
+              href="https://fb.watch/atLquu2c-d/"
+              class="column col-xs-6"
+              target="_blank"
+            >
+              <p class="mt-2 mb-1 text-center font-weight-bold">
+                Tranmisión Facebook live<br /><span class="tipodiseno"
+                  >OBS / Steaming / After Effects / Dirección</span
+                >
+              </p>
+              <img src="assets/img/Image-7.png" />
+            </a>
+          </div>
+          <div data-aos="flip-left" class="col-md-3 pt-4 text-decoration-none">
+            <a
+              href="https://www.figma.com/proto/34Bt2haICzFPwjM0Qevk1z/Global66?page-id=0%3A1&node-id=7%3A23&viewport=241%2C48%2C0.45&scaling=min-zoom&starting-point-node-id=7%3A23"
+              class="column col-xs-6"
+              target="_blank"
+            >
+              <p class="mt-2 mb-1 text-center font-weight-bold">
+                Prototipado APP Global66<br /><span class="tipodiseno"
+                  >UX / UI / Figma / APP</span
+                >
+              </p>
+              <img src="assets/img/Image.png" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+
+      <section
+        id="contacto"
+        class="bg-warning container-fluid pt-3 pb-5 px-5 text-sm-start"
+      >
+        <div class="container">
+          <h4 data-aos="fade-up" class="font-weight-bold my-3 py-5 text-center">
+            CONTACTO
+          </h4>
+
+          <div data-aos="fade-left" class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Nombre</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Tu Nombre"
+            />
+          </div>
+          <div data-aos="fade-left" class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div data-aos="fade-left" class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Mensaje</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <div data-aos="fade-left" class="col">
+            <button type="submit" class="btn btn-primary mb-3 align-items-end">
+              Enviar
+            </button>
+          </div>
+        </div>
+      </section>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    
-</body>
 
+    <!-- Footer -->
+    <footer class="text-center text-light p-3 bg-secondary">
+      <a
+        data-aos="flip-down"
+        href="https://www.linkedin.com/in/manuel-ortiz-86586554/"
+        ><i class="px-2 text-light h1 bi-linkedin"></i
+      ></a>
+      <a data-aos="flip-down" href="https://www.instagram.com/n31t0"
+        ><i class="px-2 text-light h1 bi-instagram"></i
+      ></a>
+      <a data-aos="flip-down" href="https://www.behance.net/manuelortif759"
+        ><i class="text-light h1 bi-behance"></i
+      ></a>
+      <a
+        data-aos="flip-down"
+        href="https://www.youtube.com/channel/UCeqcIjCTx-9YXnN9afpueTA"
+        ><i class="px-2 text-light h1 bi-youtube"></i
+      ></a>
+      <a data-aos="flip-down" href="https://github.com/NeinSec"
+        ><i class="px-2 text-light h1 bi-github"></i
+      ></a>
+
+      <p class="py-3 creditos">
+        Diseño original de Manuel Ortiz - 2021.<br />
+        Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
+  </body>
 </html>
